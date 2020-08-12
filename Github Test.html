@@ -7,89 +7,17 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1671.6">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Andale Mono'; color: #414141; -webkit-text-stroke: #414141}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Andale Mono'; color: #215da8; -webkit-text-stroke: #215da8}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Andale Mono'; color: #3ab075; -webkit-text-stroke: #3ab075}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Andale Mono'; color: #a4a4a4; -webkit-text-stroke: #a4a4a4}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Andale Mono'; color: #414141; -webkit-text-stroke: #414141; min-height: 14.0px}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Andale Mono'; color: #e15306; -webkit-text-stroke: #e15306}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Andale Mono'; color: #215da8; -webkit-text-stroke: #215da8; background-color: #f6f6f6}
-    span.s1 {font-kerning: none; background-color: #f6f6f6}
-    span.s2 {font-kerning: none; color: #414141; background-color: #f6f6f6; -webkit-text-stroke: 0px #414141}
-    span.s3 {font-kerning: none; color: #e15306; background-color: #f6f6f6; -webkit-text-stroke: 0px #e15306}
-    span.s4 {font-kerning: none; color: #3ab075; background-color: #f6f6f6; -webkit-text-stroke: 0px #3ab075}
-    span.s5 {font-kerning: none; color: #215da8; background-color: #f6f6f6; -webkit-text-stroke: 0px #215da8}
-    span.s6 {font-kerning: none}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 17.0px Times; color: #eae96f; -webkit-text-stroke: #eae96f}
+    span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
 <p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p2"><span class="s1">&lt;html&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;head&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;meta </span><span class="s3">charset</span><span class="s1">=</span><span class="s4">"utf-8"</span><span class="s1"> /&gt;</span></p>
-<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s5">&lt;meta </span><span class="s3">http-equiv</span><span class="s5">=</span><span class="s1">"X-UA-Compatible"</span><span class="s5"> </span><span class="s3">content</span><span class="s5">=</span><span class="s1">"IE=edge"</span><span class="s5"> /&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">&lt;title&gt;</span><span class="s1">Image based tracking AR.js demo</span><span class="s5">&lt;/title&gt;</span></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- import aframe and then ar.js with image tracking / location based features --&gt;</span></p>
-<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s5">&lt;script </span><span class="s3">src</span><span class="s5">=</span><span class="s1">"https://aframe.io/releases/1.0.4/aframe.min.js"</span><span class="s5">&gt;&lt;/script&gt;</span></p>
-<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s5">&lt;script </span><span class="s3">src</span><span class="s5">=</span><span class="s1">"https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"</span><span class="s5">&gt;&lt;/script&gt;</span></p>
-<p class="p5"><span class="s6"></span><br></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- style for the loader --&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;style&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>.arjs-loader {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>height: 100%;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>width: 100%;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>position: absolute;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>top: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>left: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>background-color: rgba(0, 0, 0, 0.8);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>z-index: 9999;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>display: flex;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>justify-content: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>align-items: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p5"><span class="s6"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>.arjs-loader div {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>text-align: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>font-size: 1.25em;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>color: white;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/style&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/head&gt;</span></p>
-<p class="p5"><span class="s6"></span><br></p>
-<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">&lt;body </span><span class="s3">style</span><span class="s5">=</span><span class="s1">"margin : 0px; overflow: hidden;"</span><span class="s5">&gt;</span></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- minimal loader shown until image descriptors are loaded. Loading may take a while according to the device computational power --&gt;</span></p>
-<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s5">&lt;div </span><span class="s3">class</span><span class="s5">=</span><span class="s1">"arjs-loader"</span><span class="s5">&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">&lt;div&gt;</span><span class="s1">Loading, please wait...</span><span class="s5">&lt;/div&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
-<p class="p5"><span class="s6"></span><br></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- a-frame scene --&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;a-scene</span></p>
-<p class="p3"><span class="s5"><span class="Apple-converted-space">      </span></span><span class="s3">vr-mode-ui</span><span class="s5">=</span><span class="s1">"enabled: false;"</span></p>
-<p class="p3"><span class="s5"><span class="Apple-converted-space">      </span></span><span class="s3">renderer</span><span class="s5">=</span><span class="s1">"logarithmicDepthBuffer: true;"</span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">      </span></span><span class="s1">embedded</span></p>
-<p class="p3"><span class="s5"><span class="Apple-converted-space">      </span></span><span class="s3">arjs</span><span class="s5">=</span><span class="s1">"trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"</span><span class="s5">&gt;</span></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- a-nft is the anchor that defines an Image Tracking entity --&gt;</span></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- on 'url' use the path to the Image Descriptors created before. --&gt;</span></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- the path should end with the name without the extension e.g. if file is trex.fset' the path should end with trex --&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s5">&lt;a-nft</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">type</span><span class="s1">=</span><span class="s4">"nft"</span></p>
-<p class="p3"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">url</span><span class="s5">=</span><span class="s1">"&lt;path-to-your-image-descriptors&gt;"</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">smooth</span><span class="s1">=</span><span class="s4">"true"</span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">smoothCount</span><span class="s5">=</span><span class="s4">"10"</span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">smoothTolerance</span><span class="s5">=</span><span class="s4">".01"</span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">smoothThreshold</span><span class="s5">=</span><span class="s4">"5"</span><span class="s5">&gt;</span></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s1">&lt;!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity --&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s5">&lt;a-entity</span></p>
-<p class="p3"><span class="s5"><span class="Apple-converted-space">          </span></span><span class="s3">gltf-model</span><span class="s5">=</span><span class="s1">"https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">              </span></span><span class="s3">scale</span><span class="s1">=</span><span class="s4">"5 5 5"</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">              </span></span><span class="s3">position</span><span class="s1">=</span><span class="s4">"100 100 0"</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">          </span>&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s1">&lt;/a-entity&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;/a-nft&gt;</span></p>
-<p class="p4"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;!-- static camera that moves according to the device movemenents --&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;a-entity </span><span class="s3">camera</span><span class="s1">&gt;&lt;/a-entity&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/a-scene&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/body&gt;</span></p>
-<p class="p7"><span class="s6">&lt;/html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h1&gt;Hello World&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;I'm hosted with GitHub Pages.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
 </body>
 </html>
